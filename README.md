@@ -3,7 +3,7 @@
   <p><strong>Workflow Pack Generator for Codex Environments</strong></p>
   <p>Generate structured workflow packs that map user intent to <code>codex-flow-*</code> skill routes — optimized for <code>.codex</code> environments.</p>
 
-  [![npm version](https://img.shields.io/npm/v/codexflow.svg)](https://www.npmjs.com/package/codex-flow-cli)
+  [![npm version](https://img.shields.io/npm/v/codex-flow-cli.svg)](https://www.npmjs.com/package/codex-flow-cli)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
 
