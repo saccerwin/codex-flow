@@ -96,6 +96,44 @@ Default output directory:
 | AI agent operations | `ai-agent-ops`, `community` | autonomous loops, eval harnesses, MCP builder, CI/debug workflows |
 | Language specialization | `language-engineering` | Python/Go/Rust/Kotlin/Spring/Django/Laravel patterns and testing |
 
+## Frontend React Skill Imports
+
+Recently added frontend-react skill bundles in `frontend-web` include Tailwind CSS, shadcn/ui, Framer Motion, motion design, and Aceternity UI workflows.
+
+Key newly-mapped routes:
+
+- `/tailwind/advanced-layouts`
+- `/tailwind/animations`
+- `/tailwind/mobile-first`
+- `/tailwind/advanced-design-systems`
+- `/tailwind/responsive-darkmode`
+- `/tailwind/design`
+- `/ui-lib/shadcn-ui-stitch`
+- `/ui-lib/aceternity-ui`
+- `/frontend/aceternity-builder`
+- `/animation/framer-motion-best-practices`
+- `/animation/motion-designer`
+- `/animation/motion-designer-startup-os`
+
+Source links:
+
+- [tailwindcss-advanced-layouts](https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-advanced-layouts)
+- [tailwindcss-animations](https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-animations)
+- [tailwindcss-mobile-first](https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-mobile-first)
+- [tailwindcss](https://skills.sh/hairyf/skills/tailwindcss)
+- [tailwindcss-advanced-design-systems](https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-advanced-design-systems)
+- [tailwindcss-responsive-darkmode](https://skills.sh/josiahsiegel/claude-plugin-marketplace/tailwindcss-responsive-darkmode)
+- [tailwindcss-design](https://skills.sh/anilcancakir/my-claude-code/tailwindcss-design)
+- [shadcn](https://skills.sh/shadcn/ui/shadcn)
+- [shadcn-ui (developer-kit)](https://skills.sh/giuseppe-trisciuoglio/developer-kit/shadcn-ui)
+- [shadcn-ui (stitch-skills)](https://skills.sh/google-labs-code/stitch-skills/shadcn-ui)
+- [framer-motion-animator](https://skills.sh/patricio0312rev/skills/framer-motion-animator)
+- [motion-designer (animation-principles)](https://skills.sh/dylantarre/animation-principles/motion-designer)
+- [framer-motion-best-practices](https://skills.sh/pproenca/dot-skills/framer-motion-best-practices)
+- [motion-designer (startup-os-skills)](https://skills.sh/ncklrs/startup-os-skills/motion-designer)
+- [aceternity-ui](https://skills.sh/secondsky/claude-skills/aceternity-ui)
+- [frontend-aceternity](https://skills.sh/petbrains/mvp-builder/frontend-aceternity)
+
 ## Memory and Context Skills
 
 CodexFlow includes dedicated memory-aware skills so Codex app can keep continuity across long tasks.
@@ -153,6 +191,9 @@ Canonical ownership for common intents:
 | `/angular-best-practices` | `frontend-web` | `codex-flow-angular-component` | Angular standalone component and signal-based architecture patterns |
 | `/animation/3d-web-experience` | `frontend-web` | `codex-flow-3d-web-experience` | 3D web-experience architecture with Three.js or React Three Fiber and performance guardrails |
 | `/animation/framer-motion` | `frontend-web` | `codex-flow-framer-motion-animator` | Framer Motion variants, transitions, and interaction-driven animation patterns |
+| `/animation/framer-motion-best-practices` | `frontend-web` | `codex-flow-framer-motion-best-practices` | Framer Motion best practices for accessibility, performance, and maintainable motion architecture |
+| `/animation/motion-designer` | `frontend-web` | `codex-flow-motion-designer` | Motion design workflow for narrative UI transitions, timing systems, and interaction choreography |
+| `/animation/motion-designer-startup-os` | `frontend-web` | `codex-flow-motion-designer-startup-os` | Startup-OS motion design patterns for product storytelling and conversion-focused micro-interactions |
 | `/animation/scroll-experience` | `frontend-web` | `codex-flow-scroll-experience` | Scroll-driven storytelling and cinematic interaction patterns with performance-aware motion |
 | `/animation/threejs` | `frontend-web` | `codex-flow-threejs-animation` | Three.js animation system patterns and performance-safe motion orchestration |
 | `/animation/threejs-fundamentals` | `frontend-web` | `codex-flow-threejs-fundamentals` | Three.js fundamentals for scene setup, camera, and renderer composition |
@@ -244,6 +285,7 @@ Canonical ownership for common intents:
 | `/frameworks/vercel-react-best-practices` | `frontend-web` | `codex-flow-vercel-react-best-practices` | Vercel React best-practice ruleset for performance and correctness |
 | `/frontend-design` | `frontend-web` | `codex-flow-frontend-design` | Design-led web UI implementation and visual direction |
 | `/frontend-patterns` | `frontend-web` | `codex-flow-frontend-patterns` | Frontend architecture and UI implementation patterns from production workflows |
+| `/frontend/aceternity-builder` | `frontend-web` | `codex-flow-frontend-aceternity` | Frontend Aceternity integration workflow for reusable React section patterns and landing blocks |
 | `/frontend/animation-micro-interactions` | `frontend-web` | `codex-flow-animation-micro-interaction-pack` | Micro-interaction pattern pack for meaningful UI motion feedback |
 | `/frontend/component-scaffold` | `frontend-web` | `codex-flow-component-scaffold-generator` | Generate reusable frontend component scaffolds with naming and structure conventions |
 | `/frontend/dark-mode` | `frontend-web` | `codex-flow-dark-mode-implementer` | Implement dark mode with token-safe and contrast-safe theming |
@@ -360,6 +402,13 @@ Canonical ownership for common intents:
 | `/strategic-compact` | `ai-agent-ops` | `codex-flow-strategic-compact` | Manual compaction guidance at logical milestones |
 | `/support` | `knowledge-work` | `codex-flow-customer-support` | Support ticket triage and escalation-ready summaries |
 | `/svelte-best-practices` | `frontend-web` | `codex-flow-svelte-code-writer` | Svelte and SvelteKit implementation guidance |
+| `/tailwind/advanced-design-systems` | `frontend-web` | `codex-flow-tailwindcss-advanced-design-systems` | Advanced Tailwind design-system token and component governance patterns |
+| `/tailwind/advanced-layouts` | `frontend-web` | `codex-flow-tailwindcss-advanced-layouts` | Advanced Tailwind layout composition patterns for complex responsive interfaces |
+| `/tailwind/animations` | `frontend-web` | `codex-flow-tailwindcss-animations` | Tailwind animation patterns for performant, expressive UI motion |
+| `/tailwind/core-patterns` | `frontend-web` | `codex-flow-tailwindcss-core` | Core Tailwind utility architecture and class composition best practices |
+| `/tailwind/design` | `frontend-web` | `codex-flow-tailwindcss-design` | Tailwind-first UI design workflow for production-ready visual consistency |
+| `/tailwind/mobile-first` | `frontend-web` | `codex-flow-tailwindcss-mobile-first` | Mobile-first Tailwind workflow for breakpoint-safe component design |
+| `/tailwind/responsive-darkmode` | `frontend-web` | `codex-flow-tailwindcss-responsive-darkmode` | Responsive and dark-mode implementation patterns with Tailwind CSS |
 | `/tanstack-query` | `frontend-web` | `codex-flow-tanstack-query-best-practices` | TanStack Query data fetching and cache strategy patterns |
 | `/tanstack-query-expert` | `frontend-web` | `codex-flow-tanstack-query-expert` | Production-grade TanStack Query patterns for cache lifecycle, mutations, optimistic updates, and SSR hydration |
 | `/team-builder` | `ai-agent-ops` | `codex-flow-team-builder` | Compose and dispatch parallel specialist agent teams |
@@ -372,10 +421,12 @@ Canonical ownership for common intents:
 | `/testing/playwright-generate-test` | `frontend-web` | `codex-flow-playwright-generate-test` | Generate Playwright tests from scenario descriptions |
 | `/tool-design` | `ai-agent-ops` | `codex-flow-tool-design` | Design robust agent-facing tool APIs with clear contracts and reduced routing ambiguity |
 | `/typescript-clean-code` | `frontend-web` | `codex-flow-typescript-clean-code` | TypeScript clean-code and maintainable architecture patterns |
+| `/ui-lib/aceternity-ui` | `frontend-web` | `codex-flow-aceternity-ui` | Aceternity UI component usage patterns for high-polish React interfaces |
 | `/ui-lib/building-components` | `frontend-web` | `codex-flow-building-components` | Vercel component building patterns for scalable UI libraries |
 | `/ui-lib/shadcn` | `frontend-web` | `codex-flow-shadcn` | shadcn/ui official skills workflow with project-aware context via components.json and composition-safe component generation |
 | `/ui-lib/shadcn-skills` | `frontend-web` | `codex-flow-shadcn-skills` | shadcn/ui skills.sh workflow with CLI command coverage (init/add/search/view/docs/diff/info/build) and MCP registry support |
 | `/ui-lib/shadcn-ui` | `frontend-web` | `codex-flow-shadcn-ui` | Comprehensive shadcn/ui guide with forms, charts, and controlled components |
+| `/ui-lib/shadcn-ui-stitch` | `frontend-web` | `codex-flow-shadcn-ui-stitch` | Google Stitch-oriented shadcn/ui integration patterns for rapid design-to-component workflows |
 | `/ui-lib/tailwind-design-system` | `frontend-web` | `codex-flow-tailwind-design-system` | Tailwind CSS-first design system with reusable component primitives |
 | `/ui-lib/tailwind-v4-shadcn` | `frontend-web` | `codex-flow-tailwind-v4-shadcn` | Tailwind v4 and shadcn/ui integration and migration patterns |
 | `/ui-ux-pro-max` | `frontend-web` | `codex-flow-ui-ux-pro-max` | Comprehensive UI and UX design intelligence across styles, palettes, typography, and stacks |
