@@ -1,0 +1,27 @@
+{
+  "name": "codex-flow-cli",
+  "version": "0.1.0",
+  "description": "Workflow pack generator for Codex app .codex skill routing.",
+  "type": "module",
+  "bin": {
+    "codex-flow": "./bin/codex-flow.js",
+    "codexflow": "./bin/codex-flow.js"
+  },
+  "scripts": {
+    "start": "node ./bin/codex-flow.js",
+    "check:routes": "node ./scripts/check-route-conflicts.mjs",
+    "test:smoke": "node ./scripts/check-route-conflicts.mjs && node ./bin/codex-flow.js list && node ./bin/codex-flow.js status"
+  },
+  "keywords": [
+    "codex",
+    "workflow",
+    "ai-agent",
+    "cli",
+    "automation"
+  ],
+  "license": "MIT,"
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Saccerwin"
+}
