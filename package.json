@@ -1,6 +1,6 @@
 {
   "name": "codex-flow-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Workflow pack generator for Codex app .codex skill routing.",
   "type": "module",
   "bin": {
